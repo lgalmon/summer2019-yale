@@ -1,6 +1,10 @@
 /* Styles for the index page */
 
 h1{
-  color:purple;
+  color:orange;
   font-size:48px;
+}
+p{
+  display:block;
+  margin-right:50%;
 }
