@@ -1,0 +1,1234 @@
+body {
+  background-color: rgb(205,217,255);
+  height: 100vh;
+  width: 100%;
+  margin:0px;
+}
+h1{
+  color:black;
+}
+h4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+span{
+  display: inline;
+  justify-content: space-between;
+}
+p {
+  text-indent: 1em;
+  margin: 0px;
+}
+#emotions {
+  margin: 0px;
+  display: inline;
+}
+.card {
+  position: absolute;
+  justify-content: center;
+}
+.card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,1);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:1vh;
+  left: 1vh;
+  z-index: 1;
+}
+#emotions:hover .card {
+  visibility: visible;
+}
+#about:hover .card {
+  visibility: visible;
+}
+#head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+#title {
+  width: 40%;
+}
+#intro {
+  width: 40%;
+  text-align: right;
+  margin-right: 10px;
+}
+.clock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#hd1 {
+  display:inline-flex;
+  justify-content: space-between;
+}
+#th-happy{
+  display: inline-block;
+  background-color: rgb(254,247,133);
+  color: rgb(254,247,133);
+  height: 16px;
+  width: 16px;
+}
+#th-depressed{
+  display: inline-block;
+  background-color: rgb(25,95,122);
+  height: 16px;
+  width: 16px;
+}
+#th-anx-confused{
+  display: inline-block;
+  background-color: rgb(222,163,12);
+  height: 16px;
+  width: 16px;
+}
+#th-anxious{
+  display: inline-block;
+  background-color: rgb(246,131,71);
+  height: 16px;
+  width: 16px;
+}
+#th-anx-depressed{
+  display: inline-block;
+  background-color: rgb(151,131,71);
+  height: 16px;
+  width: 16px;
+}
+#th-nerv-excited{
+  display: inline-block;
+  background-color: rgb(255,182,40);
+  height: 16px;
+  width: 16px;
+}
+#th-angry{
+  display: inline-block;
+  background-color: rgb(219,51,69);
+  height: 16px;
+  width: 16px;
+}
+#th-afraid{
+  display: inline-block;
+  background-color: rgb(151,40,24);
+  height: 16px;
+  width: 16px;
+}
+#th-resig-good{
+  display: inline-block;
+  background-color: rgb(137,77,220);
+  height: 16px;
+  width: 16px;
+}
+#th-calm{
+  display: inline-block;
+  background-color: rgb(126,124,209);
+  height: 16px;
+  width: 16px;
+}
+#th-melancholic{
+  display: inline-block;
+  background-color: rgb(13,73,125);
+  height: 16px;
+  width: 16px;
+}
+#th-resig-bad{
+  display: inline-block;
+  background-color: rgb(112,160,207);
+  height: 16px;
+  width: 16px;
+}
+#th-sad{
+  display: inline-block;
+  background-color: rgb(13,151,208);
+  height: 16px;
+  width: 16px;
+}
+#th-aggravated{
+  display: inline-block;
+  background-color: rgb(136,206,108);
+  height: 16px;
+  width: 16px;
+}
+#th-distressed{
+  display: inline-block;
+  background-color: rgb(76,116,108);
+  height: 16px;
+  width: 16px;
+}
+#th-grounded{
+  display: inline-block;
+  background-color: rgb(118,54,0);
+  height: 16px;
+  width: 16px;
+}
+#th-vulnerable{
+  display: inline-block;
+  background-color: rgb(255,211,228);
+  height: 16px;
+  width: 16px;
+}
+#th-confused{
+  display: inline-block;
+  background-color: rgb(136,206,108);
+  height: 16px;
+  width: 16px;
+}
+#th-suicidal{
+  display: inline-block;
+  background-color: rgb(21,26,40);
+  height: 16px;
+  width: 16px;
+}
+#th-overwhelmed{
+  display: inline-block;
+  background-color: rgb(255,255,230);
+  height: 16px;
+  width: 16px;
+}
+#th-ha-dp{
+  display: inline-block;
+  background-color: rgb(165,171,128);
+  height: 16px;
+  width: 16px;
+}
+#filler{
+  display: inline-block;
+  background-color: rgba(165,171,128,0);
+  height: 16px;
+  width: 16px;
+}
+
+/* 2018 to 2019 */
+.y1819 {
+  display: flex;
+  height: 16.6%;
+}
+/* Eras of 18/19 */
+.era1-1819 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(76,116,108);
+  width: 10%;
+}
+.y9e1f1card {
+  background-color: rgba(254,247,133,1.0)
+}
+#y9e1f1 {
+  background-color: rgba(254,247,133,0.5);
+  height: 38%;
+}
+#y9e1f1 .y9e1f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  bottom:30vh;
+  left: 30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y9e1f1:hover .y9e1f1card {
+  visibility: visible;
+} */
+#y9e1f2 {
+  background-color: rgb(136,206,108);
+  height:30%;
+}
+#y9e1f3 {
+  background-color: rgb(13,73,125);
+  height:22%;
+}
+.era2-1819 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(118,54,0);
+  width: 50%;
+}
+.era3-1819 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(126,124,209);
+  width: 20%;
+}
+
+
+/* 2017 to 2018 */
+.y1718 {
+  display: flex;
+  background-color: white;
+  height: 16.6%;
+}
+/* Era 1 */
+.era1-1718 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(13,73,125);
+  width: 40%;
+}
+/* Era 2 */
+.era2-1718 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(126,124,209);
+  width: 30%;
+}
+/* Era 3 */
+.era3-1718 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(118,54,0);
+  width: 17%;
+}
+/* Era 4 */
+.era4-1718 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254,247,133);
+  width: 3%;
+}
+/* Era 5 */
+.era5-1718 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(118,54,0);
+  width: 10%;
+}
+/* 2016 to 2017 */
+.y1617 {
+  display: flex;
+  background-color: white;
+  height: 16.6%;
+}
+.era1-1617 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25,95,122);
+  width: 25%;
+}
+/*Color and Card 1 */
+#y6e1f1 {
+  background-color: rgba(254,247,133,1);
+  height: 50%;
+}
+#y6e1f1 .y6e1f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y6e1f1:hover .y6e1f1card {
+  visibility: visible;
+}
+/*Color and Card 2 */
+#y6e1f2 {
+  background-color: rgba(254,247,133,1);
+  height: 50%;
+}
+#y6e1f2 .y6e1f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y6e1f2:hover .y6e1f2card {
+  visibility: visible;
+}
+/* Era 2 */
+.era2-1617 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(112,160,207);
+  width: 3%;
+}
+/*Color and Card 1 */
+#y6e2f1 {
+  background-color: white;
+  height: 50%;
+}
+#y6e2f1 .y6e2f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y6e2f1:hover .y6e2f1card {
+  visibility: visible;
+}
+/*Color and Card 2 */
+/*Color and Card 3 */
+/* Era 3 */
+.era3-1617 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25,95,122);
+  width: 30%;
+}
+/*Color and Card 1 */
+/*Color and Card 2 */
+/*Color and Card 3 */
+/*Color and Card 4 */
+/* era 4 */
+.era4-1617 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(76,116,108);
+  width: 5%;
+}
+/*Color and Card 1 */
+/*Color and Card 2 */
+/*Color and Card 3 */
+/* Era 5 */
+.era5-1617 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(13,73,125);
+  width: 27%;
+}
+/* Era 6 */
+.era6-1617 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(137,77,220);
+  width: 10%;
+}
+/* 2015 to 2016 */
+.y1516 {
+  display: flex;
+  background-color: white;
+  height: 16.6%;
+}
+/* Era 1 */
+.era1-1516 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254,247,133);
+  width: 10%;
+}
+/* Era 2 */
+.era2-1516 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255,255,230);
+  width: 33%;
+}
+/* Era 3 */
+.era3-1516 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(13,151,208);
+  width: 20%;
+}
+/* Era 4 */
+.era4-1516 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25,95,122);
+  width: 37%;
+}
+/* 2014 to 2015 */
+.y1415 {
+  display: flex;
+  background-color: white;
+  height: 16.6%;
+}
+/* Eras of 14/15 */
+/* Era 1 */
+.era1-1415 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255,255,230);
+  width: 10%;
+}
+/* Color and Card 1 */
+#y5e1f1 {
+  background-color: rgba(13,151,208,0.8);
+  height: 50%;
+}
+#y5e1f1 .y5e1f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y5e1f1:hover .y5e1f1card {
+  visibility: visible;
+}
+/* Color and Card 2 */
+#y5e1f1 {
+  background-color: rgba(255,182,40,.6);
+  height: 33.33%;
+}
+#y5e1f2 .y5e1f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y5e1f2:hover .y5e1f2card {
+  visibility: visible;
+}
+/* Color and Card 3 */
+#y5e1f3 {
+  background-color: rgba(254,247,133,.8);
+  height: 33.33%;
+}
+#y5e1f3 .y5e1f3card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y5e1f3:hover .y5e1f3card {
+  visibility: visible;
+}
+/* Era 2 */
+.era2-1415 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255,182,40);
+  width: 10%;
+}
+/* Color and Card 1 */
+#y5e2f1 {
+  background-color: rgba(254,247,133,.7);
+  height: 50%;
+}
+#y5e2f1 .y5e2f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y5e2f1:hover .y5e2f1card {
+  visibility: visible;
+}
+/* Color and Card 2 */
+#y5e2f2 {
+  background-color: rgba(126,124,209,.8);
+  height: 50%;
+}
+#y5e2f2 .y5e2f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y5e2f2:hover .y5e2f2card {
+  visibility: visible;
+}
+/* Era 3 */
+.era3-1415 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254,247,133);
+  width: 10%;
+}
+/* Color and Card 1 */
+#y5e3f1 {
+  background-color: rgba(126,124,209,.8);
+  height: 100%;
+}
+#y5e3f1 .y5e3f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y5e3f1:hover .y5e3f1card {
+  visibility: visible;
+}
+/* Era 4 */
+.era4-1415 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(219,51,69);
+  width: 10%;
+}
+/* Color and Card 1 */
+#y5e4f1 {
+  background-color: rgba(136,206,108,.7);
+  height: 100%;
+}
+#y5e4f1 .y5e4f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y5e4f1:hover .y5e4f1card {
+  visibility: visible;
+}
+/* Color and Card 2 */
+#y5e4f2 {
+  background-color: rgba(219,51,69,.5);
+  height: 100%;
+}
+#y5e4f2 .y5e4f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y5e4f2:hover .y5e4f2card {
+  visibility: visible;
+}
+/* Era 5 */
+.era5-1415 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254,247,133);
+  width: 30%;
+}
+/* Color and Card 1 */
+/* Era 6 */
+.era6-1415 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255,182,40);
+  width: 30%;
+}
+/* 2013 to 2014 */
+.y1314 {
+  display: flex;
+  background-color: white;
+  height: 16.6%;
+}
+/* Eras of 13/14 */
+/* Era 1 */
+.era1-1314 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254,247,133);
+  width: 8.3%;
+}
+/*Color and card 1*/
+#y4e1f1 {
+  background-color: rgba(255,182,40,0.8);
+  height: 50%;
+}
+#y4e1f1 .y4e1f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e1f1:hover .y4e1f1card {
+  visibility: visible;
+}
+/*Color and card 2*/
+#y4e1f2 {
+  background-color: rgb(254,247,133);
+  height:50%;
+}
+#y4e1f2 .y4e1f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e1f2:hover .y4e1f2card {
+  visibility: visible;
+}
+/* Era 2 */
+.era2-1314 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255,182,40);
+  width: 8.3%;
+}
+/*Color and card 1*/
+#y4e2f1 {
+  background-color: rgba(254,247,133,0.8);
+  height:100%;
+}
+#y4e2f1 .y4e2f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e2f1:hover .y4e2f1card {
+  visibility: visible;
+}
+/* Era 3 */
+.era3-1314 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254,247,133);
+  width: 8.3%;
+}
+/*Color and Card 1 */
+#y4e3f1 {
+  background-color: rgba(255,182,40,.7);
+  height:33%;
+}
+#y4e3f1 .y4e3f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e3f1:hover .y4e3f1card {
+  visibility: visible;
+}
+/* Color and card 2 */
+#y4e3f2 {
+  background-color: rgba(136,208,108,.7);
+  height:33%;
+}
+#y4e3f2 .y4e3f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e3f2:hover .y4e3f2card {
+  visibility: visible;
+}
+/*Color and card 3 */
+#y4e3f3 {
+  background-color: rgba(254,247,133, .5);
+  height:33%;
+}
+#y4e3f3 .y4e3f3card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e3f3:hover .y4e3f3card {
+  visibility: visible;
+}
+/* Era 4 */
+.era4-1314 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(126,124,209);
+  width: 8.3%;
+}
+/* Color and card 1 */
+#y4e4f1 {
+  background-color: rgba(254,247,133, .9);
+  height:33.33%;
+}
+#y4e4f1 .y4e4f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e4f1:hover .y4e4f1card {
+  visibility: visible;
+}
+/* Color and Card 2 */
+#y4e4f2 {
+  background-color: rgba(255,182,40,.8);
+  height:33.33%;
+}
+#y4e4f2 .y4e4f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e4f2:hover .y4e4f2card {
+  visibility: visible;
+}
+/*Color and Card 3 */
+#y4e4f3 {
+  background-color: rgba(254,247,133, .8);
+  height:33.33%;
+}
+#y4e4f3 .y4e4f3card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e4f3:hover .y4e4f3card {
+  visibility: visible;
+}
+/* Era 5 */
+.era5-1314 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255,182,40);
+  width: 16.6%;
+}
+/* Color and Card 1 */
+#y4e5f1 {
+  background-color: rgba(254,247,133, .8);
+  height:50%;
+}
+#y4e5f1 .y4e5f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e5f1:hover .y4e5f1card {
+  visibility: visible;
+}
+/* Color and Card 2 */
+#y4e5f2 {
+  background-color: rgba(137,77,220, .8);
+  height:50%;
+}
+#y4e5f2 .y4e5f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e5f2:hover .y4e5f2card {
+  visibility: visible;
+}
+/* Era 6 */
+.era6-1314 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(137,77,220);
+  width: 25%;
+}
+/* Color and Card 1 */
+#y4e6f1 {
+  background-color: rgba(255,182,40, .8);
+  height:33.33%;
+}
+#y4e6f1 .y4e6f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  bottom:30vh;
+  left: 30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e6f1:hover .y4e6f1card {
+  visibility: visible;
+}
+/* Color and Card 2 */
+#y4e6f2 {
+  background-color: rgba(255,182,40, .6);
+  height:33.33%;
+}
+#y4e6f2 .y4e6f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e6f2:hover .y4e6f2card {
+  visibility: visible;
+}
+/* Color and Card 3 */
+#y4e6f3 {
+  background-color: rgba(255,182,40, .5);
+  height:33.33%;
+}
+#y4e6f3 .y4e6f3card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e6f3:hover .y4e6f3card {
+  visibility: visible;
+}
+/* Era 7 */
+.era7-1314 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255,255,230);
+  width: 25%;
+}
+/* Color and Card 1 */
+#y4e7f1 {
+  background-color: rgba(254,247,133,.8);
+  height:20%;
+}
+#y4e7f1 .y4e7f1card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e7f1:hover .y4e7f1card {
+  visibility: visible;
+}
+/* Color and Card 2 */
+#y4e7f2 {
+  background-color: rgba(255,255,230 .8);
+  height:20%;
+}
+#y4e7f2 .y4e7f2card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e7f2:hover .y4e7f2card {
+  visibility: visible;
+}
+/* Color and Card 3 */
+#y4e7f3 {
+  background-color: rgba(13,151,208, .5);
+  height:20%;
+}
+#y4e7f3 .y4e7f3card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e7f3:hover .y4e7f3card {
+  visibility: visible;
+}
+/* Color and Card 4 */
+#y4e7f4 {
+  background-color: white;
+  height:20%;
+}
+#y4e7f4 .y4e7f4card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e7f4:hover .y4e7f4card {
+  visibility: visible;
+}
+/* Color and Card 5 */
+#y4e7f5 {
+  background-color: rgba(254,247,133 .9);
+  height:20%;
+}
+#y4e7f5 .y4e7f5card {
+  visibility: hidden;
+  width: 50vw;
+  background-color: rgba(255,255,255,0.75);
+  color: rgb(10,20,40);
+  text-align: left;
+  border-radius: 2px;
+  border: double;
+  border-width: medium;
+  border-color: rgb(10,20,40);
+  padding: 10px;
+  position: absolute;
+  top:30vh;
+  right: 30vh;
+  z-index: 1;
+}
+/*#y4e7f5:hover .y4e7f5card {
+  visibility: visible;
+}
