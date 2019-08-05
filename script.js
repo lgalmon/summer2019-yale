@@ -22,6 +22,21 @@ var d2 = d1.getDate();
 var y1 = new Date();
 var y2 = y1.getYear();
 var y3 = y2 + 1900;
+//declare variables and store the current time value (hours, minutes and seconds)
+function time(){
+  var h = new Date().getHours();
+  var mi = new Date().getMinutes();
+  var s = new Date().getSeconds();
+//prints hour, second and year values by replacing id tags in html file
+  document.getElementById("hour").innerHTML = h+":";
+  document.getElementById("minute").innerHTML= mi+":";
+  document.getElementById("second").innerHTML= s;
+};
+//executes the function "time" every 250 milliseconds
+setInterval(function(){
+  time();
+},250);
+
 //prints month, day and year values by replacing id tags in html file
 document.getElementById("month").innerHTML = m2;
 document.getElementById("day").innerHTML = d2+", ";
